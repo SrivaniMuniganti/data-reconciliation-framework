@@ -1,0 +1,49 @@
+# =============================================================================
+# DataSync Audit — .gitignore
+# =============================================================================
+
+# Environment and secrets
+.env
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Runtime outputs
+outputs/
+
+# Local CSV fixtures (may contain sensitive data)
+local/*.csv
+
+# Config Excel files (may contain sensitive connection/mapping data)
+config/*.xlsx
+config/idmaps/*.xlsx
+config/mappings/*.xlsx
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/

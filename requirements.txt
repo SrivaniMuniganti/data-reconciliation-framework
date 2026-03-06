@@ -1,0 +1,26 @@
+# =============================================================================
+# DataSync Audit — Python Dependencies
+# =============================================================================
+
+# Core data processing
+pandas>=2.0.0
+openpyxl>=3.1.0          # Excel read/write (.xlsx)
+
+# Database connectors
+psycopg2-binary>=2.9.0   # PostgreSQL
+pyodbc>=5.0.0            # SQL Server / Azure SQL (requires ODBC driver)
+
+# HTTP client (Azure DevOps API)
+requests>=2.31.0
+
+# Environment variable management
+python-dotenv>=1.0.0
+
+# ---------------------------------------------------------------------------
+# Optional — development and testing
+# ---------------------------------------------------------------------------
+# pytest>=7.4.0
+# pytest-cov>=4.1.0
+# black>=23.0.0
+# ruff>=0.1.0
+# mypy>=1.5.0
